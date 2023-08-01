@@ -26,8 +26,7 @@ export default function Footer() {
           <h4 className='lg:text-xl font-semibold mb-5'>
             Company
           </h4>
-          <ul>
-            <li className='pb-3'>About</li>
+          <ul className='space-y-4'>
             <li>Cars</li>
             <li>Download</li>
           </ul>
@@ -37,8 +36,7 @@ export default function Footer() {
           <h4 className='lg:text-xl font-semibold mb-5'>
             Information
           </h4>
-          <ul>
-            <li className='pb-3'>About</li>
+          <ul className='space-y-4'>
             <li>Whitepaper</li>
             <li>Contact Us</li>
             <li>Services</li>
