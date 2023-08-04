@@ -66,7 +66,7 @@ export default function Menu() {
           <a href="/" className="text-lg ml-4 text-white-100 font-semibold">Download</a>
         </button>
         <div className="py-2.5 mt-3 flex items-center rounded-md duration-300 cursor-pointer bg-white-100 text-blue-100">
-          <a href='' className="text-lg ml-4 font-semibold">Connect Wallet</a>
+          <a href='/' className="text-lg ml-4 font-semibold">Connect Wallet</a>
         </div>
       </div> : null
       }

@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className='container text-white-100 mx-auto lg:px-20 px-5'>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 items-start justify-content-center gap-16 font-exo">
-       
+
         <div className="col-span-1">
           <a href="/" className="logo">
             <img src={logo} alt="Logo" />
@@ -37,7 +37,9 @@ export default function Footer() {
             Information
           </h4>
           <ul className='space-y-4'>
-            <li>Whitepaper</li>
+            <a href='https://docs.cargame.tech/'>
+              <li>Whitepaper</li>
+            </a>
             <li>Contact Us</li>
             <li>Services</li>
           </ul>

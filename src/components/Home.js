@@ -125,17 +125,19 @@ export default function Home() {
                         <img src={about} alt='about'></img>
                     </div>
 
-                    <div data-aos='fade-left' className='lg:w-1/2 space-y-5'>
+                    <div data-aos='fade-left' className='lg:w-1/2'>
                         <h3 className='lg:text-4xl text-2xl font-semibold'>
                             What is Car Games?
                         </h3>
-                        <p className='text-black-50'>
+                        <p className='text-black-50 mb-6'>
                             Car Games is a multiplayer car racing game on Ethereum where randomly selected players compete against each other. The winner is paid out in ETH-the funds will come from the marketing wallet
                             Participants will be able to exit the game at any time
                         </p>
-                        <button className="bg-blue-100 hover:bg-black-100 border-2 border-blue-100 hover:text-blue-100 cursor-pointer py-3 px-6 rounded-sm">
-                            Know more
-                        </button>
+                        <a href='https://docs.cargame.tech/'>
+                            <button className="bg-blue-100 hover:bg-black-100 border-2 border-blue-100 hover:text-blue-100 cursor-pointer py-3 px-6 rounded-sm">
+                                Know more
+                            </button>
+                        </a>
                     </div>
 
                 </div>
